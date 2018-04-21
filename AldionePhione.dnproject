@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project author="HomePC" authorOS="Windows 10" createdAt="1512054135662" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="AldionePhione" packageName="alphi" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1524285410967">
+  <tree>
+    <expanded>
+    <path src=""/>
+      <path src="/src"/>
+      <path src="/src/.theme"/>
+      <path src="/src/alphi"/>
+      <path src="/src/alphi/forms"/>
+      <path src="/src/alphi/modules"/>
+      <path src="/src/libs"/>
+    </expanded>
+  </tree>
+  <openedFiles>
+  <file src="AldionePhione.dnproject"/>
+    <file selected="1" src="src/alphi/forms/navpanel.php"/>
+    <file src="src/alphi/forms/Panel.php"/>
+    <file src="src/alphi/forms/Install.php"/>
+    <file src="src/alphi/modules/API.php"/>
+    <file src="src/alphi/forms/login.php"/>
+    <file src="src/alphi/forms/Off.php"/>
+    <file src="src/alphi/forms/NotificationPanel.php"/>
+    <file src="src/alphi/modules/hide.php"/>
+    <file src="src/alphi/modules/Acrylic.php"/>
+    <file src="src/alphi/forms/Home.php"/>
+    <file src="src/alphi/forms/Blur.php"/>
+    <file src="src/libs/UXBlur.php"/>
+    <file src="src/alphi/forms/FullMaterialForm.php"/>
+    <file src="src/alphi/forms/License_MIT.php"/>
+  </openedFiles>
+  <files/>
+  <behaviours>
+  <behaviour class="ide\project\behaviours\BundleProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\PhpProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\JavaPlatformBehaviour"/>
+    <behaviour class="ide\project\behaviours\GuiFrameworkProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\RunBuildProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\ShareProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\BackupProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\GradleProjectBehaviour"/>
+  </behaviours>
+</project>

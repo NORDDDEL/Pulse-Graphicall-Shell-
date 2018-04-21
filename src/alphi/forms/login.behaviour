@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="time">
+    <behaviour format="HH:mm" type="behaviour\custom\WatchMakerBehaviour"/>
+  </target>
+  <target id="panel">
+    <behaviour delay="0" duration="100" enabled="" maxOffset="1" repeatCount="-1" type="behaviour\custom\ChatterAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image">
+    <behaviour radius="19.207317073171" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>

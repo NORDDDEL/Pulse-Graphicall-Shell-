@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="384" prefWidth="208" styleClass="">
+  <children>
+    <Rectangle arcHeight="40" arcWidth="40" fill="#f7f7f7" focusTraversable="false" height="224" id="rectAlt" layoutX="22" layoutY="128" stroke="#ffffff" strokeType="INSIDE" strokeWidth="0" styleClass="" width="160"/>
+    <Rectangle arcHeight="40" arcWidth="40" fill="#ffffff" focusTraversable="false" height="216" id="rect" layoutX="22" layoutY="32" stroke="#ffffff" strokeType="INSIDE" strokeWidth="2" styleClass="" width="160"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
+    <FlatButton alignment="CENTER" clickColor="#000000" color="#000000" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="0" hoverColor="#000000" id="button7" layoutX="96" layoutY="56" prefHeight="20" prefWidth="20" style="-fx-shape : &quot;M13 3h-2v10h2V3zm4.83 2.17l-1.42 1.42C17.99 7.86 19 9.81 19 12c0 3.87-3.13 7-7 7s-7-3.13-7-7c0-2.19 1.01-4.14 2.58-5.42L6.17 5.17C4.23 6.82 3 9.26 3 12c0 4.97 4.03 9 9 9s9-4.03 9-9c0-2.74-1.23-5.18-3.17-6.83z&quot;;" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="0"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button7" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="64" layoutY="96" opacity="0.7037037037037" prefHeight="17.291015625" prefWidth="76.552734375" styleClass="label " text="Выключение" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="13"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <FlatButton alignment="CENTER" clickColor="#000000" color="#000000" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="0" hoverColor="#000000" id="button" layoutX="96" layoutY="160" prefHeight="20" prefWidth="20" style="-fx-shape : &quot;M17.65 6.35C16.2 4.9 14.21 4 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z&quot;;" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="0"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="64" layoutY="200" opacity="0.7037037037037" prefHeight="17.291015625" prefWidth="80.69775390625" styleClass="label " text="Перезагрузка" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="13"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectAlt" visible="1"/>
+    <LabelEx AnchorPane.topAnchor="232" alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="24" layoutY="232" prefHeight="136" prefWidth="160" styleClass="label " text="Создатели:&#10;ODION (Нижник Владислав)&#10;MWStudio (Максим Тарасов)" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
+  </children>
+</AnchorPane>

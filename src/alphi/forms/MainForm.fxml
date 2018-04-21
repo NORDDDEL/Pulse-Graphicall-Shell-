@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680" prefWidth="1040" styleClass="">
+  <children>
+    <ScrollPane fitToHeight="true" fitToWidth="true" focusTraversable="false" hbarPolicy="NEVER" hvalue="0" id="container" layoutX="0" layoutY="0" prefHeight="680" prefWidth="1040" style="-fx-background: transparent;&#10;-fx-background-color: none;" styleClass="scroll-pane " vbarPolicy="AS_NEEDED" vvalue="0">
+      <content>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="680" prefWidth="1040" styleClass="">
+          <children/>
+        </AnchorPane>
+      </content>
+    </ScrollPane>
+    <Data cursor="DEFAULT" enabled="1" id="data-container" visible="1"/>
+    <FlatButton AnchorPane.leftAnchor="-72" alignment="CENTER" borderRadius="1" clickColor="#cccccc" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="0" hoverColor="#e6e6e6" id="button10" layoutX="-72" layoutY="224" opacity="0.90243902439024" prefHeight="13" prefWidth="13" style="-fx-shape : &quot;M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z&quot;;" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="0"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button10" visible="1"/>
+    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="2" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panelAlt" layoutX="120" layoutY="128" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="292" prefWidth="200" styleClass="" titleColor="#333333" titleOffset="0" titlePosition="TOP_LEFT">
+      <children>
+        <FlatButton alignment="CENTER_LEFT" borderRadius="3" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#f2f2f2" id="button3" layoutX="0" layoutY="227" prefHeight="32" prefWidth="200" styleClass="x-flat-button " text="       Удалить" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" graphic="" id="data-button3" visible="1"/>
+        <FlatButton alignment="CENTER_LEFT" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#f2f2f2" id="button4" layoutX="0" layoutY="260" prefHeight="32" prefWidth="198" styleClass="x-flat-button " text="       Свойства" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-button4" visible="1"/>
+        <Separator focusTraversable="false" id="separator" layoutX="0" layoutY="123" opacity="0.63414634146341" orientation="HORIZONTAL" prefHeight="8" prefWidth="200" styleClass="separator "/>
+        <Data cursor="DEFAULT" enabled="1" id="data-separator" visible="1"/>
+        <Separator focusTraversable="false" id="separatorAlt" layoutX="0" layoutY="222" opacity="0.63414634146341" orientation="HORIZONTAL" prefHeight="8" prefWidth="200" styleClass="separator "/>
+        <Data cursor="DEFAULT" enabled="1" id="data-separatorAlt" visible="1"/>
+        <FlatButton alignment="CENTER_LEFT" borderRadius="3" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#f2f2f2" id="buttonAlt" layoutX="0" layoutY="192" prefHeight="32" prefWidth="200" styleClass="x-flat-button " text="       Создать папку" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
+        <FlatButton alignment="CENTER_LEFT" borderRadius="3" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#f2f2f2" id="button5" layoutX="0" layoutY="160" prefHeight="32" prefWidth="200" styleClass="x-flat-button " text="       Создать текстовый документ" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-button5" visible="1"/>
+        <FlatButton alignment="CENTER_LEFT" borderRadius="3" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#f2f2f2" id="button6" layoutX="0" layoutY="128" prefHeight="32" prefWidth="200" styleClass="x-flat-button " text="       Создать архив ZIP" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-button6" visible="1"/>
+        <FlatButton alignment="CENTER_LEFT" borderRadius="3" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#f2f2f2" id="button7" layoutX="0" layoutY="93" prefHeight="32" prefWidth="200" styleClass="x-flat-button " text="       Параметры" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-button7" visible="1"/>
+        <FlatButton alignment="CENTER_LEFT" borderRadius="3" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#f2f2f2" id="button8" layoutX="0" layoutY="64" prefHeight="32" prefWidth="200" styleClass="x-flat-button " text="       Консоль" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-button8" visible="1"/>
+        <FlatButton alignment="CENTER_LEFT" borderRadius="3" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#f2f2f2" id="button9" layoutX="0" layoutY="0" prefHeight="32" prefWidth="200" styleClass="x-flat-button " text="       Обновить" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-button9" visible="1"/>
+        <FlatButton alignment="CENTER_LEFT" borderRadius="3" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#f2f2f2" id="button11" layoutX="0" layoutY="31" prefHeight="32" prefWidth="200" styleClass="x-flat-button " text="       Персонализация" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-button11" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panelAlt" visible=""/>
+    <TextField AnchorPane.leftAnchor="-8" AnchorPane.rightAnchor="8" alignment="CENTER_LEFT" editable="false" focusTraversable="true" id="edit" layoutX="-8" layoutY="688" opacity="0" prefColumnCount="12" prefHeight="32" prefWidth="1040" promptText="" style="-fx-background-color:null;&#10;" styleClass="text-input text-field " text="C:\Users\HomePC\Desktop">
+      <font>
+        <Font name="System Regular" size="14"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-edit" visible=""/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="1048" layoutY="-8" opacity="0" prefHeight="32" prefWidth="16" styleClass="button " text="Кнопка" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+  </children>
+</AnchorPane>

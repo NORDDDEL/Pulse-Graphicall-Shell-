@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="552" prefWidth="920" styleClass="">
+  <children>
+    <Panel backgroundColor="#ffffff00" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel" layoutX="-32" layoutY="-24" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="581" prefWidth="959" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <Rectangle AnchorPane.bottomAnchor="5" AnchorPane.leftAnchor="32" AnchorPane.rightAnchor="-179" arcHeight="7" arcWidth="7" fill="#ffffff" focusTraversable="false" height="504" id="rect3" layoutX="32" layoutY="72" opacity="0.79746835443038" stroke="#b3b3b3" strokeType="INSIDE" strokeWidth="1" styleClass="" width="920"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-rect3" visible="1"/>
+        <Rectangle AnchorPane.leftAnchor="32" AnchorPane.rightAnchor="-464" arcHeight="0" arcWidth="0" fill="#6850b2" focusTraversable="false" height="50" id="rectAlt" layoutX="32" layoutY="56" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="920"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-rectAlt" visible="1"/>
+        <FlatButton AnchorPane.rightAnchor="933" alignment="CENTER" borderRadius="1" clickColor="#cccccc" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="0" hoverColor="#e6e6e6" id="button5" layoutX="14" layoutY="24" opacity="0" prefHeight="12" prefWidth="12" style="-fx-shape : &quot;M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z&quot;;" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="0"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-button5" visible="1"/>
+        <LabelEx AnchorPane.leftAnchor="64" alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="64" layoutY="56" prefHeight="48" prefWidth="96" styleClass="label " text="Форма" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="15"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-navig" tooltipText="" visible="1"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
+        <Rectangle AnchorPane.leftAnchor="32" AnchorPane.rightAnchor="-434" arcHeight="4" arcWidth="4" fill="#58429c" focusTraversable="false" height="33" id="rect" layoutX="32" layoutY="24" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="920"/>
+        <Panel backgroundColor="#ffffff00" borderColor="#ffffff00" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="navig" layoutX="848" layoutY="28" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="24" prefWidth="104" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+          <children>
+            <FlatButton alignment="CENTER" clickColor="#cccccc" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="0" hoverColor="#e6e6e6" id="button7" layoutX="79" layoutY="8" prefHeight="12" prefWidth="12" style="-fx-shape : &quot;M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z&quot;;" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+              <font>
+                <Font name="System Regular" size="0"/>
+              </font>
+            </FlatButton>
+            <Data cursor="DEFAULT" enabled="1" id="data-button7" visible="1"/>
+            <FlatButton alignment="CENTER" borderRadius="11" clickColor="#cccccc" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="0" hoverColor="#e6e6e6" id="button10" layoutX="7" layoutY="18" prefHeight="2" prefWidth="13" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+              <font>
+                <Font name="System Regular" size="0"/>
+              </font>
+            </FlatButton>
+            <Data cursor="DEFAULT" enabled="1" id="data-button10" visible="1"/>
+            <FlatButton alignment="CENTER" clickColor="#cccccc" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="0" hoverColor="#e6e6e6" id="button8" layoutX="44" layoutY="8" prefHeight="12" prefWidth="12" style="-fx-shape : &quot;M3,3H21V21H3V3M5,5V19H19V5H5Z&quot;;" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+              <font>
+                <Font name="System Regular" size="0"/>
+              </font>
+            </FlatButton>
+            <Data cursor="DEFAULT" enabled="1" id="data-button8" visible="1"/>
+            <FlatButton alignment="CENTER" clickColor="#cccccc" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="0" hoverColor="#e6e6e6" id="buttonAlt" layoutX="45" layoutY="9" prefHeight="10" prefWidth="10" style="-fx-shape : &quot;M3,3H21V21H3V3M5,5V19H19V5H5Z&quot;;" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+              <font>
+                <Font name="System Regular" size="0"/>
+              </font>
+            </FlatButton>
+            <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
+          </children>
+          <titleFont>
+            <Font name="System Regular" size="12"/>
+          </titleFont>
+        </Panel>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+  </children>
+</AnchorPane>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480" prefWidth="688" styleClass="">
+  <children>
+    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel3" layoutX="16" layoutY="72" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" opacity="0" prefHeight="56" prefWidth="648" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label15" layoutX="16" layoutY="0" prefHeight="56" prefWidth="616" styleClass="label " text="Текст" textAlignment="LEFT" textFill="#cc3333" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label15" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Rectangle arcHeight="8" arcWidth="8" fill="#ffffff" focusTraversable="false" height="416" id="rect" layoutX="16" layoutY="32" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="648"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#4d66cc" focusTraversable="false" height="24" id="rectAlt" layoutX="16" layoutY="56" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="648"/>
+    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panelAlt" layoutX="16" layoutY="136" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="256" prefWidth="648" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <Rectangle arcHeight="0" arcWidth="0" fill="#cccccc" focusTraversable="false" height="1" id="rect6" layoutX="251" layoutY="39" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="72"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-rect6" visible="1"/>
+        <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label9" layoutX="344" layoutY="30" prefHeight="16" prefWidth="272" styleClass="label " text="Введите здесь ваш E-mail." textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label9" visible="1"/>
+        <Rectangle arcHeight="0" arcWidth="0" fill="#cccccc" focusTraversable="false" height="1" id="rect9" layoutX="251" layoutY="90" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="72"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-rect9" visible="1"/>
+        <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label11" layoutX="344" layoutY="81" prefHeight="16" prefWidth="272" styleClass="label " text="Введите здесь ваше имя." textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label11" visible="1"/>
+        <Rectangle arcHeight="0" arcWidth="0" fill="#cccccc" focusTraversable="false" height="1" id="rect11" layoutX="251" layoutY="139" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="72"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-rect11" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label13" layoutX="344" layoutY="128" prefHeight="17" prefWidth="256" styleClass="label " text="Введите здесь ваш пароль." textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label13" visible="1"/>
+        <com.jfoenix.controls.JFXTextField alignment="CENTER_LEFT" editable="true" focusColor="#4059a9" focusTraversable="true" id="edit" layoutX="32" layoutY="16" prefColumnCount="12" prefHeight="32" prefWidth="192" promptText="Ваш E-mail." text="" unFocusColor="#4d4d4d">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+          <styleClass xmlns:fx="http://javafx.com/fxml">
+            <String fx:value="text-input"/>
+            <String fx:value="text-field"/>
+            <String fx:value="jfx-text-field"/>
+          </styleClass>
+        </com.jfoenix.controls.JFXTextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit" visible="1"/>
+        <com.jfoenix.controls.JFXTextField alignment="CENTER_LEFT" editable="true" focusColor="#4059a9" focusTraversable="true" id="editAlt" layoutX="32" layoutY="64" prefColumnCount="12" prefHeight="32" prefWidth="192" promptText="Ваше имя" text="" unFocusColor="#4d4d4d">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+          <styleClass xmlns:fx="http://javafx.com/fxml">
+            <String fx:value="text-input"/>
+            <String fx:value="text-field"/>
+            <String fx:value="jfx-text-field"/>
+          </styleClass>
+        </com.jfoenix.controls.JFXTextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-editAlt" visible="1"/>
+        <com.jfoenix.controls.JFXPasswordField alignment="CENTER_LEFT" editable="true" focusColor="#4059a9" focusTraversable="true" id="passwordField" layoutX="32" layoutY="112" prefColumnCount="12" prefHeight="32" prefWidth="192" promptText="Ваш пароль" text="" unFocusColor="#4d4d4d">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+          <styleClass xmlns:fx="http://javafx.com/fxml">
+            <String fx:value="text-input"/>
+            <String fx:value="text-field"/>
+            <String fx:value="password-field"/>
+            <String fx:value="jfx-password-field"/>
+          </styleClass>
+        </com.jfoenix.controls.JFXPasswordField>
+        <Data cursor="DEFAULT" enabled="1" id="data-passwordField" visible="1"/>
+        <com.jfoenix.controls.JFXPasswordField alignment="CENTER_LEFT" editable="true" focusColor="#4059a9" focusTraversable="true" id="passwordFieldAlt" layoutX="32" layoutY="160" prefColumnCount="12" prefHeight="32" prefWidth="192" promptText="Подтвердите пароль" text="" unFocusColor="#4d4d4d">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+          <styleClass xmlns:fx="http://javafx.com/fxml">
+            <String fx:value="text-input"/>
+            <String fx:value="text-field"/>
+            <String fx:value="password-field"/>
+            <String fx:value="jfx-password-field"/>
+          </styleClass>
+        </com.jfoenix.controls.JFXPasswordField>
+        <Data cursor="DEFAULT" enabled="1" id="data-passwordFieldAlt" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panelAlt" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectAlt" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect3" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel3" visible="1"/>
+    <Panel borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel4" layoutX="688" layoutY="136" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="256" prefWidth="648" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label16" layoutX="16" layoutY="16" prefHeight="224" prefWidth="616" styleClass="label " text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer bibendum viverra massa, et pellentesque velit dictum eget. Vestibulum at metus convallis, hendrerit augue eu, congue ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas in quam ac lorem maximus ultricies at fermentum neque. Aliquam consequat dui quis nunc vulputate, non finibus ligula congue. Proin sed dui tellus. Mauris eu ullamcorper lacus, id facilisis urna. Suspendisse potenti. Aliquam scelerisque lectus vel porttitor maximus. Aliquam a nibh faucibus, luctus lacus vel, porttitor ex. Maecenas vitae ligula fringilla, ornare nulla vel, gravida nunc. Donec sodales lectus non felis tempor, vel suscipit nisi facilisis. Quisque a fringilla lectus, a sollicitudin libero. Praesent turpis felis, rutrum vel lacus vel, posuere imperdiet libero. Nam dapibus pulvinar tellus. Fusce at efficitur nunc, nec ultricies arcu. Ut consectetur porta mauris, sed feugiat ipsum euismod eu. Ut tempus turpis a urna ullamcorper laoreet. Donec urna nibh, varius eu interdum vitae, gravida in justo." textAlignment="LEFT" textFill="#4d4d4d" underline="false" wrapText="true">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label16" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel4" visible="1"/>
+    <Panel borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel5" layoutX="1344" layoutY="136" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="256" prefWidth="648" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label17" layoutX="276" layoutY="109" prefHeight="16" prefWidth="96" styleClass="label " text="Готово" textAlignment="CENTER" textFill="#666666" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label17" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label18" layoutX="276" layoutY="128" prefHeight="16" prefWidth="96" styleClass="label " text="mStart настроен." textAlignment="LEFT" textFill="#666666" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label18" visible="1"/>
+        <LabelEx AnchorPane.topAnchor="16" alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label10" layoutX="32" layoutY="16" prefHeight="80" prefWidth="192" styleClass="label " text="Создатели:&#10;ODION (Нижник Владислав)&#10;MWStudio (Максим Тарасов)" textAlignment="LEFT" textFill="#cccccc" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label10" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel5" visible="1"/>
+    <com.jfoenix.controls.JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="24" layoutY="400" prefHeight="40" prefWidth="80" style="-fx-background-color: #ffffff00;" styleClass="button jfx-button " text="ОТМЕНА" textAlignment="LEFT" textFill="#666666" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </com.jfoenix.controls.JFXButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+    <com.jfoenix.controls.JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="buttonAlt" layoutX="528" layoutY="400" prefHeight="40" prefWidth="128" style="-fx-background-color: #ffffff00;" styleClass="button jfx-button " text="ПРОДОЛЖИТЬ" textAlignment="LEFT" textFill="#4d66cc" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </com.jfoenix.controls.JFXButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#673ab7" focusTraversable="false" height="96" id="rect3" layoutX="16" layoutY="32" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="648"/>
+    <Panel backgroundColor="#673ab7" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel" layoutX="16" layoutY="72" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="56" prefWidth="648" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <Circle fill="#03a9f4" focusTraversable="false" id="circle" layoutX="39" layoutY="29" radius="10" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass=""/>
+        <Data cursor="DEFAULT" enabled="1" id="data-circle" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="36" layoutY="21" prefHeight="15.9609375" prefWidth="6.46875" styleClass="label " text="1" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="11"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="56" layoutY="21" opacity="0.99" prefHeight="17" prefWidth="96" styleClass="label " text="Регистрация ПК" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+        <Circle fill="#ffffff" focusTraversable="false" id="circleAlt" layoutX="274" layoutY="30" radius="10" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass=""/>
+        <Data cursor="DEFAULT" enabled="1" id="data-circleAlt" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="292" layoutY="21" prefHeight="17" prefWidth="128" styleClass="label " text="Принять соглашение" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
+        <Circle fill="#ffffff" focusTraversable="false" id="circle3" layoutX="536" layoutY="30" radius="10" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass=""/>
+        <Data cursor="DEFAULT" enabled="1" id="data-circle3" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="553" layoutY="21" prefHeight="17" prefWidth="48" styleClass="label " text="Готово" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label5" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label6" layoutX="271" layoutY="22" prefHeight="16" prefWidth="16" styleClass="label " text="2" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="11"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label6" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label7" layoutX="533" layoutY="22" prefHeight="16" prefWidth="16" styleClass="label " text="3" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="11"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label7" visible="1"/>
+        <Rectangle arcHeight="0" arcWidth="0" fill="#cccccc" focusTraversable="false" height="1" id="rect4" layoutX="168" layoutY="30" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="84"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-rect4" visible="1"/>
+        <Rectangle arcHeight="0" arcWidth="0" fill="#cccccc" focusTraversable="false" height="1" id="rect5" layoutX="430" layoutY="30" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="84"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-rect5" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="40" layoutY="33" prefHeight="41" prefWidth="256" styleClass="label " text="Первый запуск AldionePhione" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="13"/>
+      </font>
+    </LabelEx>
+  </children>
+</AnchorPane>

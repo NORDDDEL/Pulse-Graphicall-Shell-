@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="rect">
+    <behaviour color="#00000036" offsetX="0" offsetY="0" radius="19.5" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="button7">
+    <behaviour radius="1.5" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="button">
+    <behaviour radius="1.5" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="rectAlt">
+    <behaviour color="#00000036" offsetX="0" offsetY="0" radius="19.5" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>

@@ -1,0 +1,31 @@
+@import "material/UXButton.css";
+@import "material/UXCheckbox.css";
+@import "material/UXCircularProgress.css";
+
+/**    Структура элементов **
+ *    .ux-base-root > 
+ *        .ux-base-content
+ **/
+
+.ux-base-root{
+    -fx-focus-color: transparent; 
+    -fx-border-width: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+}
+
+.ux-base-content{
+    -fx-border-width: 0;
+    -fx-background-color: null;
+    -fx-background-color: transparent;
+    -fx-control-inner-background: transparent;
+}
+
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+
+.scroll-pane {
+   -fx-background-color: transparent;
+}

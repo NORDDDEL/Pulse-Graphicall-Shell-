@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="rect3">
+    <behaviour radius="63" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="tilePane">
+    <behaviour color="#666666" offsetX="0" offsetY="2" radius="2.5" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="rect">
+    <behaviour color="#0000007b" offsetX="0" offsetY="2.5" radius="6" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>

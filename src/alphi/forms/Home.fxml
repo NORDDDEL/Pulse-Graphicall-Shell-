@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400" prefWidth="680" styleClass="">
+  <children>
+    <ImageViewEx AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" autoSize="false" centered="false" focusTraversable="false" height="400" id="image7" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="680">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image7" image=".data/img/antelope-canyon-lower-canyon-arizona (1).jpg" visible="1"/>
+    <Panel AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="-686" backgroundColor="#00000000" borderColor="#c0c0c0" borderRadius="12" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel" layoutX="0" layoutY="358" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="42" prefWidth="1366" styleClass="" titleColor="#ffffff" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <ScrollPane AnchorPane.bottomAnchor="2" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="686" focusTraversable="false" hbarPolicy="NEVER" hvalue="0" id="container" layoutX="0" layoutY="0" prefHeight="40" prefWidth="680" styleClass="scroll-pane " vbarPolicy="NEVER" vvalue="0">
+          <content>
+            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="42" prefWidth="690" styleClass="">
+              <children/>
+            </AnchorPane>
+          </content>
+        </ScrollPane>
+        <com.jfoenix.controls.JFXButton AnchorPane.rightAnchor="694" alignment="CENTER" buttonType="RAISED" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="buttonAlt" layoutX="592" layoutY="5" prefHeight="29" prefWidth="80" style="-fx-background-color: #1a1a1a90;" styleClass="button jfx-button " text="" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </com.jfoenix.controls.JFXButton>
+        <com.jfoenix.controls.JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="button" layoutX="16" layoutY="5" prefHeight="29" prefWidth="63" style="-fx-background-color: #00000051;" styleClass="button jfx-button " text="11:00" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="14"/>
+          </font>
+        </com.jfoenix.controls.JFXButton>
+        <ImageViewEx AnchorPane.rightAnchor="725" autoSize="false" centered="true" focusTraversable="false" height="17" id="image" layoutX="624" layoutY="11" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="17">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/ic_battery_charging_100.png" tooltipText="Заряд" visible="1"/>
+        <ImageViewEx AnchorPane.rightAnchor="750" autoSize="false" centered="false" focusTraversable="false" height="16" id="image3" layoutX="599" layoutY="11" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="17">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-image3" image=".data/img/ic_signal_wifi_statusbar_4_bar_white_26x24dp.png" tooltipText="Сеть" visible="1"/>
+        <LabelEx AnchorPane.rightAnchor="694" alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="640" layoutY="7" prefHeight="24" prefWidth="32" styleClass="label " text="US" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label3" tooltipText="Язык " visible="1"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-button" tooltipText="Пуск &amp; Время" visible="1"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
+        <com.jfoenix.controls.JFXButton AnchorPane.rightAnchor="785" alignment="CENTER" buttonType="RAISED" contentDisplay="LEFT" ellipsisString="" focusTraversable="false" graphicTextGap="4" id="button3" layoutX="552" layoutY="5" prefHeight="29" prefWidth="29" style="-fx-background-color: #00000051;" styleClass="button jfx-button " text="" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="14"/>
+          </font>
+        </com.jfoenix.controls.JFXButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-button3" tooltipText="Пуск &amp; Время" visible="1"/>
+        <FlatButton AnchorPane.rightAnchor="793" alignment="CENTER" clickColor="#ffffff" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="0" hoverColor="#ffffff" id="button7" layoutX="559" layoutY="12" prefHeight="16" prefWidth="14" style="-fx-shape : &quot;M12 22c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z&quot;;" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="0"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-button7" visible="1"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-container" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#00000099" focusTraversable="false" height="50" id="rect3" layoutX="0" layoutY="272" opacity="0" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="736"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect3" visible="1"/>
+    <FragmentPane AnchorPane.bottomAnchor="48" AnchorPane.leftAnchor="464" AnchorPane.rightAnchor="-464" AnchorPane.topAnchor="0" alignment="CENTER" focusTraversable="false" id="fragment" layoutX="464" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="352" prefWidth="680" spacing="0">
+      <styleClass xmlns:fx="http://javafx.com/fxml">
+        <String fx:value="fragment-pane"/>
+        <String fx:value="-fx-background:"/>
+        <String fx:value="transparent;&#10;-fx-background-color:"/>
+        <String fx:value="none;"/>
+      </styleClass>
+    </FragmentPane>
+    <Data content="MainForm" cursor="DEFAULT" enabled="1" id="data-fragment" visible="1"/>
+    <Slider blockIncrement="10" focusTraversable="true" id="slider" layoutX="752" layoutY="136" majorTickUnit="25" max="63" min="0" orientation="HORIZONTAL" prefHeight="8" prefWidth="144" showTickLabels="false" showTickMarks="false" snapToTicks="false" styleClass="slider " value="50"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-slider" visible=""/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="32" id="imageAlt" layoutX="952" layoutY="336" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="16">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-imageAlt" visible="1"/>
+    <LabelEx AnchorPane.topAnchor="-8" alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="8" layoutY="-8" prefHeight="80" prefWidth="192" styleClass="label " text="Создатели:&#10;ODION (Нижник Владислав)&#10;MWStudio (Максим Тарасов)" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+  </children>
+</AnchorPane>

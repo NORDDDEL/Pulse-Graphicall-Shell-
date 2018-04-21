@@ -1,0 +1,67 @@
+/** UXCircularProgress 
+ * 
+ *  Структура элементов:
+ *  .ux-material-circlular-progress > 
+ *      .ux-material-circlular-progress-content >
+ *          .ux-material-circlular-progress-background,
+ *          .ux-material-circlular-progress-scale,
+ *          .ux-material-circlular-progress-center,
+ *          .ux-material-circlular-progress-label
+ *
+ * Скины:
+ *  center-darkblue
+ *  center-lightgray
+ *  scale-background-transparent
+ *  scale-background-gray
+ *  scale-blue
+ *  scale-violet
+ *  scale-green
+ *  scale-red
+ **/
+
+
+
+.ux-material-circlular-progress-label{
+    -fx-font-size: 19;
+}
+
+/*** Скины / center ***/
+.ux-material-circlular-progress.ux-skin-center-darkblue .ux-material-circlular-progress-center{
+    -fx-fill: #34495E;
+}
+.ux-material-circlular-progress.ux-skin-center-darkblue .ux-material-circlular-progress-label{
+    -fx-text-fill: white;
+}
+
+.ux-material-circlular-progress.ux-skin-center-lightgray .ux-material-circlular-progress-center{
+    -fx-fill: #ECF0F1;
+}
+.ux-material-circlular-progress.ux-skin-center-lightgray .ux-material-circlular-progress-label{
+    -fx-text-fill: #838486;
+}
+
+/*** Cкины / scale-background ***/
+.ux-material-circlular-progress.ux-skin-scale-background-transparent .ux-material-circlular-progress-background{
+    -fx-fill: transparent;
+}
+
+.ux-material-circlular-progress.ux-skin-scale-background-gray .ux-material-circlular-progress-background{
+    -fx-fill: #BDC2C6;
+}
+
+/*** Cкины / scale ***/
+.ux-material-circlular-progress.ux-skin-scale-blue .ux-material-circlular-progress-scale{
+    -fx-fill: #3598DC;
+}
+
+.ux-material-circlular-progress.ux-skin-scale-violet .ux-material-circlular-progress-scale{
+    -fx-fill: #A152BB;
+}
+
+.ux-material-circlular-progress.ux-skin-scale-green .ux-material-circlular-progress-scale{
+    -fx-fill: #1DBCA0;
+}
+
+.ux-material-circlular-progress.ux-skin-scale-red .ux-material-circlular-progress-scale{
+    -fx-fill: #E54F3E;
+}

@@ -1,0 +1,70 @@
+{
+  "props": [],
+  "components": {
+    "file": {
+      "type": "script\\FileScript",
+      "x": 320,
+      "y": 16,
+      "props": {
+        "path": "example.txt",
+        "watch": "1"
+      }
+    },
+    "robot": {
+      "type": "script\\RobotScript",
+      "x": 224,
+      "y": 16,
+      "props": {}
+    },
+    "blur": {
+      "type": "script\\TimerScript",
+      "x": 80,
+      "y": 16,
+      "props": {
+        "interval": "1000",
+        "repeatable": "1",
+        "autoStart": "1"
+      }
+    },
+    "show": {
+      "type": "script\\TimerScript",
+      "x": 32,
+      "y": 16,
+      "props": {
+        "interval": "1000",
+        "repeatable": "1",
+        "autoStart": "1"
+      }
+    },
+    "timer4": {
+      "type": "script\\TimerScript",
+      "x": 176,
+      "y": 16,
+      "props": {
+        "interval": "1000",
+        "repeatable": "1",
+        "autoStart": "1"
+      }
+    },
+    "timer3": {
+      "type": "script\\TimerScript",
+      "x": 128,
+      "y": 16,
+      "props": {
+        "interval": "1000",
+        "repeatable": "1",
+        "autoStart": "1"
+      }
+    },
+    "ini": {
+      "type": "script\\storage\\IniStorage",
+      "x": 272,
+      "y": 16,
+      "props": {
+        "path": "config.ini",
+        "autoSave": "1",
+        "multiLineValues": "1"
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="container">
+    <behaviour color="#4d4d4d" offsetX="1.2345679012346" offsetY="2.4691358024691" radius="2.5" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="panelAlt">
+    <behaviour color="#0000005a" offsetX="0" offsetY="0" radius="4.6341463414634" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>

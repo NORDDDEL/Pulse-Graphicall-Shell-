@@ -1,0 +1,64 @@
+/** UXCheckbox 
+ * 
+ *  Структура элементов:
+ *  .ux-material-checkbox > 
+ *      .ux-material-checkbox-content >
+ *          .ux-material-checkbox-click(.ux-material-checkbox-checked),
+ *          .ux-material-checkbox-label >
+ *              .ux-material-checkbox-boxparent >
+ *                  .ux-material-checkbox-box(.ux-material-checkbox-checked)
+ *
+ * Скины:
+ *  unchecked-red
+ *  unchecked-blue
+ *  checked-green
+ *  checked-blue
+ **/
+
+.ux-material-checkbox-boxparent{
+    -fx-border-width: 0;
+}
+
+.ux-material-checkbox-box{
+    -fx-border-color: black; 
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+}
+
+.ux-material-checkbox-box.ux-material-checkbox-checked{
+    -fx-border-style: hidden solid solid hidden; 
+}
+
+.ux-material-checkbox-click{
+    -fx-opacity: 0.4;
+}
+
+/* Отмеченный */
+.ux-material-checkbox.ux-skin-checked-green .ux-material-checkbox-box.ux-material-checkbox-checked{
+    -fx-border-color: green; 
+}
+.ux-material-checkbox.ux-skin-checked-green .ux-material-checkbox-click.ux-material-checkbox-checked{
+    -fx-fill: green;
+}
+
+.ux-material-checkbox.ux-skin-checked-blue .ux-material-checkbox-box.ux-material-checkbox-checked{
+    -fx-border-color: #5765A9; 
+}
+.ux-material-checkbox.ux-skin-checked-blue .ux-material-checkbox-click.ux-material-checkbox-checked{
+    -fx-fill: #5765A9;
+}
+
+/* Неотмеченный */
+.ux-material-checkbox.ux-skin-unchecked-red .ux-material-checkbox-box{
+    -fx-border-color: red; 
+}
+.ux-material-checkbox.ux-skin-unchecked-red .ux-material-checkbox-click{
+    -fx-fill: red;
+}
+
+.ux-material-checkbox.ux-skin-unchecked-blue .ux-material-checkbox-box{
+    -fx-border-color: #5765A9; 
+}
+.ux-material-checkbox.ux-skin-unchecked-blue .ux-material-checkbox-click{
+    -fx-fill: #5765A9;
+}

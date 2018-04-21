@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="vbox">
+    <behaviour animated="1" direction="UP_DOWN" enabled="" gridX="1" gridY="1" limitedByParent="" opacity="0.5" opacityEnabled="" type="behaviour\custom\DraggingBehaviour"/>
+  </target>
+  <target id="label">
+    <behaviour format="HH:mm" type="behaviour\custom\WatchMakerBehaviour"/>
+    <behaviour radius="0.5" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="labelAlt">
+    <behaviour radius="0.5" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="label3">
+    <behaviour format="HH:mm dd.MM.YYYY" type="behaviour\custom\WatchMakerBehaviour"/>
+  </target>
+</behaviours>

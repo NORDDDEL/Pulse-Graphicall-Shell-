@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="label">
+    <behaviour animated="1" opacity="0.4" opacityEnabled="" type="behaviour\custom\DraggingFormBehaviour"/>
+  </target>
+  <target id="buttonAlt">
+    <behaviour threshold="0.3" type="behaviour\custom\BloomEffectBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>

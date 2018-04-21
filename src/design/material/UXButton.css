@@ -1,0 +1,75 @@
+/** UXButton 
+ * 
+ *  Структура элементов:
+ *  .ux-material-button > 
+ *      .ux-material-button-content >
+ *          .ux-material-button-text,
+ *          .ux-material-button-clicked
+ *
+ * Скины:
+ *  shadow
+ *  red
+ *  white
+ *  violet
+ *  blue
+ *  lightblue
+ **/
+.ux-material-button-content{
+    -fx-background-color: null;
+}
+
+.ux-material-button-text{
+    -fx-text-fill: #334db3;
+    -fx-font-size: 13;
+}
+
+.ux-material-button-clicked{
+    -fx-opacity: 0.5;
+    -fx-fill: #999999;
+}
+
+.ux-material-button.ux-skin-shadow{
+    -fx-effect: dropshadow(gaussian , rgba(0,0,0,0.3), 3, 0 , 0, 1);
+}
+
+
+.ux-material-button.ux-skin-white .ux-material-button-content{
+    -fx-background-color: white;
+}
+
+.ux-material-button.ux-skin-red .ux-material-button-content{
+    -fx-background-color: #E62117;
+}
+
+.ux-material-button.ux-skin-red .ux-material-button-clicked{
+    -fx-fill: #96120D;
+    -fx-opacity: 0.5;
+}
+
+.ux-material-button.ux-skin-violet .ux-material-button-content .ux-material-button-text{
+     -fx-text-fill: #666666;
+    -fx-font-size: 13;
+}
+
+.ux-material-button.ux-skin-blue .ux-material-button-content{
+    -fx-background-color: #3F51B5;
+}
+
+.ux-material-button.ux-skin-blue .ux-material-button-clicked{
+    -fx-fill: #1D3187;
+}
+
+.ux-material-button.ux-skin-lightblue .ux-material-button-content{
+    -fx-background-color: #3498DB;
+}
+
+.ux-material-button.ux-skin-lightblue .ux-material-button-clicked{
+    -fx-fill: #1976B5;
+}
+
+.ux-material-button.ux-skin-red         .ux-material-button-text,
+.ux-material-button.ux-skin-violet      .ux-material-button-text,
+.ux-material-button.ux-skin-blue        .ux-material-button-text,
+.ux-material-button.ux-skin-lightblue   .ux-material-button-text{
+    -fx-text-fill: white;
+}
